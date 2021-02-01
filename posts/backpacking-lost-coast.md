@@ -5,6 +5,7 @@ categories:
   - "backpacking"
   - "camping"
   - "hiking"
+  - "hobby"
 tags: 
   - "backpacking"
   - "camping"

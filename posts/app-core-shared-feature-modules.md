@@ -4,6 +4,7 @@ date: "2019-11-13"
 categories: 
   - "angular"
   - "programming"
+  - "topPost"
 ---
 
 ![Angular Icon](/images/ForPosts/angular.png)
