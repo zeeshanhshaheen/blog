@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import HomeLayout, { siteTitle } from '../components/homeLayout'
 import utilStyles from '../styles/utils.module.css'
 import { getAllTopPosts as getAllPostsByCategory } from '../lib/posts'
 import Link from 'next/link'
@@ -18,7 +18,7 @@ export async function getStaticProps() {
 }
 export default function Home({ topPosts, hobbyPosts }) {
   return (
-    <Layout home>
+    <HomeLayout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -61,6 +61,6 @@ export default function Home({ topPosts, hobbyPosts }) {
           ))}
         </ul>
       </section>
-    </Layout>
+    </HomeLayout>
   )
 }
