@@ -8,7 +8,7 @@ export const siteTitle = 'Thomas Desmond - Writer, Speaker, Content Creator'
 
 export default function PostLayout({ children }) {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <meta
@@ -44,7 +44,7 @@ export default function PostLayout({ children }) {
                     </>
                 )}
             </header>
-            <main>{children}</main>
+            <main class="bg-white flex justify-center	align-center">{children}</main>
             {(
                 <div className={styles.backToHome}>
                     <Link href="/">

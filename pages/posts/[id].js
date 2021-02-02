@@ -23,12 +23,13 @@ export async function getStaticPaths() {
 
 export default function Post({ postData }) {
     return (
-        <PostLayout>
+        
+        <PostLayout class="w-full bg-blue-100">
             <Head>
                 <title>{postData.title}</title>
             </Head>
 
-            <article class="prose lg:prose-xl">
+            <article class="p-6 prose lg:prose-xl shadow-xl ">
                 <h1 className={utilStyles.headingXl}>{postData.title}</h1>
                 <div className={utilStyles.lightText}>
                     <Date dateString={postData.date} />
