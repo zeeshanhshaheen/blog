@@ -37,17 +37,17 @@ export default function HomeLayout({ children}) {
                             <span>
                                 <Link href="/">
                                     <a>
-                                        Home {' '}
+                                        🏠Home {' '}{'|'}{' '}
                                     </a>
                                 </Link>
-                                <Link href="/">
+                                <Link href="/bio">
                                     <a>
-                                        About {' '}
+                                        🧔Bio {' '}{'|'}{' '}
                                     </a>
                                 </Link>
-                                <Link href="/">
+                                <Link href="/contact">
                                     <a>
-                                        Contact
+                                        📞Contact
                                 </a>
                                 </Link>
                             </span>

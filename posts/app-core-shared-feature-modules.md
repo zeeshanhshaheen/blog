@@ -1,5 +1,8 @@
 ---
-title: "App Module vs Core Module vs Shared Module vs Feature Modules in Angular"
+title: "App Module vs 
+Core Module vs 
+Shared Module vs 
+Feature Modules in Angular"
 date: "2019-11-13"
 categories: 
   - "angular"
