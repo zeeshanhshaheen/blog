@@ -26,25 +26,47 @@ export default function PostLayout({ children }) {
             </Head>
             <header className={styles.header}>
                 {(
-                    <>
-                        <Link href="/">
-                            <a>
-                                <img
-                                    src="/images/profile.jpg"
-                                    className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                                    alt={name}
-                                />
-                            </a>
-                        </Link>
-                        <h2 className={utilStyles.headingLg}>
-                            <Link href="/">
-                                <a className={utilStyles.colorInherit}>{name}</a>
-                            </Link>
-                        </h2>
-                    </>
+                    <><table class="table-fixed w-3/4">
+                        <tbody>
+                            <td class="w-1/2 flex">
+                                <Link href="/">
+                                    <a class="flex">
+                                        <img
+                                            src="/images/profile.jpg"
+                                            class="col-start-1 max-h-24 max-w-24"
+                                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                                            alt={name}
+                                        />
+                                        <div class="text-2xl pl-2 place-self-center text-black">{name}</div>
+                                    </a>
+                                </Link>
+                            </td>
+                            <td class="w-1/2">
+                                <div class="">
+                                    <span>
+                                        <Link href="/">
+                                            <a>
+                                                🏠Home {' '}{'|'}{' '}
+                                            </a>
+                                        </Link>
+                                        <Link href="/bio">
+                                            <a>
+                                                🧔Bio {' '}{'|'}{' '}
+                                            </a>
+                                        </Link>
+                                        <Link href="/contact">
+                                            <a>
+                                                📞Contact
+                                </a>
+                                        </Link>
+                                    </span>
+                                </div>
+                            </td>
+                        </tbody>
+                    </table>                    </>
                 )}
             </header>
-            <main class="bg-white flex justify-center	align-center">{children}</main>
+            <main class="bg-white flex justify-center	align-center p-12">{children}</main>
             {(
                 <div className={styles.backToHome}>
                     <Link href="/">

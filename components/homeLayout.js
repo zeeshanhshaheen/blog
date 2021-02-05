@@ -26,7 +26,7 @@ export default function HomeLayout({ children }) {
             </Head>
             <header className={styles.header}>
                 {(
-                    <><table class="table-fixed w-1/2">
+                    <><table class="table-fixed w-3/4">
                         <tbody>
                             <td class="w-1/2 flex">
                                 <img
@@ -37,7 +37,7 @@ export default function HomeLayout({ children }) {
                                 />
                                 <div class="text-2xl pl-2 place-self-center">{name}</div>
                             </td>
-                            <td class="w-1/2">
+                            <td class="w-1/2 text-right ">
                                 <div class="">
                                     <span>
                                         <Link href="/">
@@ -62,7 +62,7 @@ export default function HomeLayout({ children }) {
                     </table>                    </>
                 )}
             </header>
-            <main class="pt-6">{children}</main>
+            <main class="pt-12">{children}</main>
         </div>
     )
 }
