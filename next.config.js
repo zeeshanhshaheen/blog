@@ -6,6 +6,21 @@ module.exports = {
           destination: '/posts/app-core-shared-feature-modules',
           permanent: true,
         },
+        {
+          source: '/2016/10/13/arches-national-park-canyon-lands-national-park-utah-september-2016',
+          destination: '/posts/arches-national-park-canyonlands-utah',
+          permanent: true,
+        },
+        {
+          source: '/2017/06/15/backpacking-the-lost-coast-trail',
+          destination: '/posts/backpacking-lost-coast',
+          permanent: true,
+        },        
+        {
+          source: '/2020/12/09/experience-backpacking-the-trans-catalina-trail-avalon-to-two-harbors',
+          destination: '/posts/backpacking-trans-catalina-trail-california',
+          permanent: true,
+        },
       ]
     },
   }

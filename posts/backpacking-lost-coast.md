@@ -53,11 +53,11 @@ After some scrambling across the rocks, we came to a spot where even during low 
 
 It was quite amazing how one second you are in a zone where the high tide would wash you away and just 50 feet ahead you are back on the bluffs safe from the crashing waves. We made it to the Spanish Flats outside the tidal zone! We hiked another mile and a half to where we would set up camp for the night. Our camping spot for the second night was even better than the first. Well established, very protected, and beautiful views.
 
-![Day 2 camping spot in the Spanish Flats, making dinner](/images/ForPosts/gopr4364-1024x768.jpg) Day 2 camping spot in the Spanish Flats, making dinner\[/caption\]
+![Day 2 camping spot in the Spanish Flats, making dinner](/images/ForPosts/gopr4364-1024x768.jpg) Day 2 camping spot in the Spanish Flats, making dinner 
 
 First thing first though after getting to camp we all took a bath. We made our way to a spot in the creek where a small pool formed and washed off our dirt and grime. A cold but refreshing bath in the middle of the trail. After a refreshing dip in the creek, we settled into camp making dinner and starting a fire. Some of us stayed up to see the sunset. It was serene being able to sit in solitude on the beach and watch the sun dip down below the horizon. It really felt like we had the entire coast to ourselves.
 
-![James watching the sunset from our Day 2 camping spot on the Spanish Flats](images/ForPosts/gopr4402-1024x768.jpg) James watching the sunset from our Day 2 camping spot on the Spanish Flats\[/caption\]
+![James watching the sunset from our Day 2 camping spot on the Spanish Flats](images/ForPosts/gopr4402-1024x768.jpg) James watching the sunset from our Day 2 camping spot on the Spanish Flats 
 
 **Favorite Moments:**
 
