@@ -6,7 +6,7 @@ import Link from 'next/link'
 const name = 'Thomas aka TheTomBomb'
 export const siteTitle = 'Thomas Desmond - Writer, Speaker, Content Creator'
 
-export default function HomeLayout({ children}) {
+export default function HomeLayout({ children }) {
     return (
         <div className={styles.container}>
             <Head>
@@ -26,36 +26,43 @@ export default function HomeLayout({ children}) {
             </Head>
             <header className={styles.header}>
                 {(
-                    <>
-                        <img
-                            src="/images/profile.jpg"
-                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                            alt={name}
-                        />
-                        <h1 className={utilStyles.heading2Xl}>{name}</h1>
-                        <h2>
-                            <span>
-                                <Link href="/">
-                                    <a>
-                                        🏠Home {' '}{'|'}{' '}
-                                    </a>
-                                </Link>
-                                <Link href="/bio">
-                                    <a>
-                                        🧔Bio {' '}{'|'}{' '}
-                                    </a>
-                                </Link>
-                                <Link href="/contact">
-                                    <a>
-                                        📞Contact
+                    <><table class="table-fixed w-1/2">
+                        <tbody>
+                            <td class="w-1/2 flex">
+                                <img
+                                    src="/images/profile.jpg"
+                                    class="col-start-1 max-h-24 max-w-24"
+                                    className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                                    alt={name}
+                                />
+                                <div class="text-2xl pl-2 place-self-center">{name}</div>
+                            </td>
+                            <td class="w-1/2">
+                                <div class="">
+                                    <span>
+                                        <Link href="/">
+                                            <a>
+                                                🏠Home {' '}{'|'}{' '}
+                                            </a>
+                                        </Link>
+                                        <Link href="/bio">
+                                            <a>
+                                                🧔Bio {' '}{'|'}{' '}
+                                            </a>
+                                        </Link>
+                                        <Link href="/contact">
+                                            <a>
+                                                📞Contact
                                 </a>
-                                </Link>
-                            </span>
-                        </h2>
-                    </>
-                ) }
+                                        </Link>
+                                    </span>
+                                </div>
+                            </td>
+                        </tbody>
+                    </table>                    </>
+                )}
             </header>
-            <main>{children}</main>
+            <main class="pt-6">{children}</main>
         </div>
     )
 }
