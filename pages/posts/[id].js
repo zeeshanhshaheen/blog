@@ -3,6 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import ReactMarkdown from 'react-markdown';
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
@@ -23,7 +24,7 @@ export async function getStaticPaths() {
 
 export default function Post({ postData }) {
     return (
-        
+
         <PostLayout class="w-full bg-blue-100">
             <Head>
                 <title>{postData.title}</title>
@@ -34,7 +35,10 @@ export default function Post({ postData }) {
                 <div className={utilStyles.lightText}>
                     <Date dateString={postData.date} />
                 </div>
-                <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+
+                <ReactMarkdown
+                    source={postData.markdown}
+                />
             </article>
         </PostLayout>
     )
