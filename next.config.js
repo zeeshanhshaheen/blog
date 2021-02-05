@@ -21,6 +21,11 @@ module.exports = {
           destination: '/posts/backpacking-trans-catalina-trail-california',
           permanent: true,
         },
+        {
+          source: '/2020/07/27/must-have-vs-code-extensions-for-angular-typescript',
+          destination: '/posts/must-have-vscode-extensions',
+          permanent: true,
+        },
       ]
     },
   }
