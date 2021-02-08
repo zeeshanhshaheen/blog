@@ -41,7 +41,7 @@ export default function PostLayout({ children }) {
                                     </a>
                                 </Link>
                             </td>
-                            <td class="w-1/2">
+                            <td class="w-1/2 text-right">
                                 <div class="">
                                     <span>
                                         <Link href="/">
