@@ -26,6 +26,11 @@ module.exports = {
           destination: '/posts/must-have-vscode-extensions',
           permanent: true,
         },
+        {
+          source: '/2020/09/04/comparing-null-and-undefined-in-javascript',
+          destination: '/posts/comparing-null-and-undefined-javascript',
+          permanent: true,
+        },
       ]
     },
   }
