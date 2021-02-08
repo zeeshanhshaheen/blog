@@ -30,7 +30,7 @@ export default function Post({ postData }) {
                 <title>{postData.title}</title>
             </Head>
 
-            <article class="max-w-none p-6 prose lg:prose-xl shadow-x">
+            <article class="max-w-none p-6 prose lg:prose-xl shadow-xl">
                 <h1 className={utilStyles.headingXl}>{postData.title}</h1>
                 <div className={utilStyles.lightText}>
                     <Date dateString={postData.date} />

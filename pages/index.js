@@ -33,14 +33,14 @@ export default function Home({ topPosts, hobbyPosts }) {
           <h2 className={utilStyles.headingLg}>📝Cool Blog Posts:</h2>
           <ul className={utilStyles.list}>
             {topPosts?.map(({ id, date, title }) => (
-              <li class="pt-2 underline " key={id}>
+              <li class="pt-4 underline " key={id}>
                 <Link href={`/posts/${id}`}>
                   <a class="text-blue-500 font-semibold">{title}</a>
                 </Link>
                 <br />
               </li>
             ))}
-            <li class="pt-2 underline " key="all-posts">
+            <li class="pt-4 underline " key="all-posts">
                 <Link href={`/all-posts`}>
                   <a class="text-blue-500 font-semibold">All Posts 👉</a>
                 </Link>
@@ -52,7 +52,7 @@ export default function Home({ topPosts, hobbyPosts }) {
           <h2 className={utilStyles.headingLg}>⛺ Hobby Posts (Mostly Camping):</h2>
           <ul className={utilStyles.list}>
             {hobbyPosts?.map(({ id, date, title }) => (
-              <li class="pt-2 underline " key={id}>
+              <li class="pt-4 underline " key={id}>
                 <Link href={`/posts/${id}`}>
                   <a class="text-blue-500 font-semibold">{title}</a>
                 </Link>
