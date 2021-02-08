@@ -22,11 +22,11 @@ export default function Home({ topPosts, hobbyPosts }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div class="inline-block w-4/5 float-right">
+      <div >
         <section className={utilStyles.headingMd}>
           <p></p>
           <p>
-            Welcome, you have reached the wonderful site of Thomas Desmond 👍
+            Welcome, you have reached the wonderful site of Thomas Desmond 👍 more contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnetmore contnet
         </p>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -40,6 +40,12 @@ export default function Home({ topPosts, hobbyPosts }) {
                 <br />
               </li>
             ))}
+            <li class="pt-2 underline " key="all-posts">
+                <Link href={`/all-posts`}>
+                  <a class="text-blue-500 font-semibold">All Posts 👉</a>
+                </Link>
+                <br />
+              </li>
           </ul>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
