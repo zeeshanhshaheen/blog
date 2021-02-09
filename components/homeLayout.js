@@ -43,19 +43,14 @@ export default function HomeLayout({ children }) {
                                     <div class="">
                                         <span>
                                             <Link href="/">
-                                                <a>
-                                                    🏠Home {' '}{'|'}{' '}
+                                                <a class="font-semibold pr-3 text-xl">
+                                                    🏠Home
                                                 </a>
                                             </Link>
                                             <Link href="/bio">
-                                                <a>
-                                                    🧔Bio {' '}{'|'}{' '}
+                                                <a class="font-semibold text-xl">
+                                                    🧔Bio
                                                 </a>
-                                            </Link>
-                                            <Link href="/contact">
-                                                <a>
-                                                    📞Contact
-                                </a>
                                             </Link>
                                         </span>
                                     </div>
