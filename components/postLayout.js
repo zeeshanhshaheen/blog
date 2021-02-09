@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import HeaderLayout from './headerLayout'
 
 const name = 'Thomas aka TheTomBomb'
 export const siteTitle = 'Thomas Desmond - Writer, Speaker, Content Creator'
@@ -24,51 +25,9 @@ export default function PostLayout({ children }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            <div class="w-screen flex align-center justify-center">
 
-                <header class="w=3/5 flex align-center justify-center">
-                    {(
-                        <><table class="table-fixed w-3/5">
-                            <tbody>
-                                <td class="w-1/2 flex">
-                                    <Link href="/">
-                                        <a class="flex">
-                                            <img
-                                                src="/images/profile.jpg"
-                                                class="col-start-1 max-h-24 max-w-24"
-                                                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                                alt={name}
-                                            />
-                                            <div class="text-2xl pl-2 place-self-center text-black">{name}</div>
-                                        </a>
-                                    </Link>
-                                </td>
-                                <td class="w-1/2 text-right">
-                                    <div class="">
-                                        <span>
-                                            <Link href="/">
-                                                <a>
-                                                    🏠Home {' '}{'|'}{' '}
-                                                </a>
-                                            </Link>
-                                            <Link href="/bio">
-                                                <a>
-                                                    🧔Bio {' '}{'|'}{' '}
-                                                </a>
-                                            </Link>
-                                            <Link href="/contact">
-                                                <a>
-                                                    📞Contact
-                                </a>
-                                            </Link>
-                                        </span>
-                                    </div>
-                                </td>
-                            </tbody>
-                        </table>                    </>
-                    )}
-                </header>
-            </div>
+            <HeaderLayout />
+
             <div class="w-screen flex align-center justify-center">
 
                 <main class="bg-white w-3/5 flex justify-center align-center p-12">{children}</main>
