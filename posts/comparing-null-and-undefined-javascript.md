@@ -16,7 +16,11 @@ According to the JavaScript documentation: "The value _**null**_ represents the 
 
 A value cannot be null unless it has specifically been assigned null. Let's look at some code:
 
-![Example of null](/images/ForPosts/example-of-null.png)
+```
+let temp = null;
+console.log(temp)
+// will result in "null" being printed out
+```
 
 Above, on line 1 we are setting our value to null. null is powerful and something commonly found in code. There is even a [null object design pattern](https://sourcemaking.com/design_patterns/null_object).1
 
@@ -24,13 +28,21 @@ Above, on line 1 we are setting our value to null. null is powerful and somethin
 
 "A variable that has not been assigned a value is of type `**undefined**`" ([Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)). If we declare a variable but do not assign a value to it, its value is undefined.
 
-![Example of undefined](/images/ForPosts/example-of-undefined.png)
+```
+let temp;
+console.log(temp);
+// Will result in "undefined" printed out
+```
 
 Since we didn't assign a value to temp on line 1 it is **undefined**.
 
 "A method or statement also returns **`undefined`** if the variable that is being evaluated does not have an assigned value." So we would see undefined if we access a property on an object that does not exist or does not contain a value.
 
-![Example of undefined property](/images/ForPosts/example-undefined-property.png)
+```
+let person = {};
+console.log(person.name);
+// Will print out "undefined" because the name property does not exist on the person object.
+```
 
 We don't need to be scared of undefined it just means the variable has never been assigned or does not exist.
 
@@ -38,7 +50,13 @@ We don't need to be scared of undefined it just means the variable has never bee
 
 There is a bit of a gotcha when thinking about equality of null vs undefined. Let's look at examples:
 
-![Example of undefined property](/images/ForPosts/equality-example.png)
+```
+null === undefined
+// false
+
+null == undefined
+// true
+```
 
 In the first strict equal (===) case, we get false returned. This is because both null and undefined evaluate to false **BUT** they are different object types. null is of type object while undefined is simply of type undefined.
 
