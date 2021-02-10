@@ -1,5 +1,6 @@
 ---
 title: "Make it work, Make it right, Make it fast"
+description: "Incremental steps to creating quality software"
 date: "2018-05-17"
 categories: 
   - "programming"

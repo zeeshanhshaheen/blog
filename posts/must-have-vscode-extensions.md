@@ -1,5 +1,6 @@
 ---
 title: "Must Have VS Code Extensions for Angular & Typescript"
+description: "The extension I use everyday with development"
 date: "2020-07-27"
 categories: 
   - "angular"
