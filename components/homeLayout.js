@@ -24,7 +24,7 @@ export default function HomeLayout({ children }) {
             </Head>
             <HeaderLayout />
             
-            <div class="w-screen flex align-center justify-center">
+            <div class="w-screen h-full bg-gray-100  flex align-center justify-center">
                 <main class="md:w-3/5 w-4/5 pt-12 flex align-center justify-center">{children}</main>
             </div>
         </div>
