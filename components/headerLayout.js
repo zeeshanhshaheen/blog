@@ -10,13 +10,17 @@ export default function HeaderLayout({ }) {
                     <><table class="table-fixed w-3/5">
                         <tbody>
                             <td class="w-1/2 flex">
-                                <img
-                                    src="/images/profile.jpg"
-                                    class="col-start-1 max-h-24 max-w-24"
-                                    className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                    alt="Thomas Desmond"
-                                />
-                                <div class="text-2xl pl-2 place-self-center">Thomas aka TheTomBomb</div>
+                                <Link href="/">
+                                    <a class="flex text-black">
+                                        <img
+                                            src="/images/profile.jpg"
+                                            class="col-start-1 max-h-24 max-w-24"
+                                            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                                            alt="Thomas Desmond"
+                                        />
+                                        <div class="text-2xl pl-2 place-self-center">Thomas aka TheTomBomb</div>
+                                    </a>
+                                </Link>
                             </td>
                             <td class="w-1/2 text-right ">
                                 <div class="">
