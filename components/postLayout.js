@@ -30,7 +30,7 @@ export default function PostLayout({ children }) {
 
             <div class="w-screen flex align-center justify-center">
 
-                <main class="bg-white w-3/5 flex justify-center align-center p-12">{children}</main>
+                <main class=" md:w-3/5 w-11/12 bg-white flex justify-center align-center p-12">{children}</main>
             </div>
             {(
                 <div className={styles.backToHome}>
