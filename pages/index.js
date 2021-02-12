@@ -47,7 +47,7 @@ export default function Home({ topPosts, hobbyPosts }) {
                           width: "50%",
                         }}
                         src="/profile1.png"
-                        alt=""
+                        alt="Picture of Thomas Desmond"
                         id="set-image"
                       />
                     </div>
@@ -102,7 +102,7 @@ export default function Home({ topPosts, hobbyPosts }) {
                   👨‍🏫 My Courses:
               </h1>
               <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
-                My cool courses hosted on Thinkster.io
+                My tech courses hosted on Thinkster.io
               </p>
 
               <div class="flex mt-2 justify-center">
