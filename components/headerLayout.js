@@ -1,45 +1,61 @@
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 
-export default function HeaderLayout({ }) {
-    return (
-        // <div class="bg-gray-200 w-screen flex align-center justify-center">
+export default function HeaderLayout({}) {
+  return (
+    // <div class="bg-gray-200 w-screen flex align-center justify-center">
+    <>
+      <div>
+        {/* <header class="w-3/5 pt-4 flex align-center justify-center"> */}
 
-        <div class="w-screen bg-gray-100 flex align-center justify-center">
-            {/* <header class="w-3/5 pt-4 flex align-center justify-center"> */}
-
-            <header class="w-3/5 pt-4">
-                {(
-                    <div class="flex ">
-                        <div class="">
-                            <Link href="/">
-                                <a class="flex text-black">
-                                    {/* <img
-                                    src="/images/profile.jpg"
-                                    class="col-start-1 max-h-24 max-w-24"
-                                    className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-                                    alt="Thomas Desmond"
-                                /> */}
-                                    <div class="text-2xl text-black place-self-center">Thomas aka TheTomBomb</div>
-                                </a>
-                            </Link>
-                        </div>
-                        <div class="pt-3 inline-block align-right">
-                                <Link href="/">
-                                    <a class="font-semibold text-black pr-3 text-xl">
-                                        Home
-                                                        </a>
-                                </Link>
-                                <Link href="/bio">
-                                    <a class="font-semibold text-black text-xl">
-                                        Bio
-                                                        </a>
-                                </Link>
-                        </div>
-                    </div>
-                )}
-            </header>
-        </div>
-    )
+        <header className="text-gray-600 body-font bg-indigo-700">
+          <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a
+              href="/"
+              className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 no-underline	"
+            >
+              {/* <img
+            src="/images/profile.jpg"
+            class="col-start-1 max-h-24 max-w-24"
+            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+            alt="Thomas Desmond"
+        /> */}
+              <span className="ml-3 text-xl">
+                {" "}
+                <span id="name">Thomas aka</span> TheTomBomb
+              </span>
+            </a>
+            <nav className="md:ml-auto flex flex-wrap items-center  justify-center">
+              <a
+                href="/"
+                className="mr-5 text-white hover:text-gray-900 no-underline"
+              >
+                Home
+              </a>{" "}
+              <a
+                href="/bio"
+                className="mr-5 ml-5 text-white hover:text-gray-900 no-underline"
+              >
+                Bio
+              </a>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <style jsx>
+        {`
+          a {
+            text-decoration: none;
+            cursor: pointer;
+          }
+          @media only screen and (max-width: 768px) {
+            #name {
+              display: none;
+            }
+          }
+        `}
+      </style>
+    </>
+  );
 }
