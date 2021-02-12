@@ -31,6 +31,16 @@ module.exports = {
           destination: '/posts/comparing-null-and-undefined-javascript',
           permanent: true,
         },
+        {
+          source: '/2016/12/31/palm-canyon-backpacking-trip',
+          destination: '/posts/palm-canyon-backpacking',
+          permanent: true,
+        },
+        {
+          source: '2017/01/24/mud-caves',
+          destination: '/posts/arroyo-tapiado-mud-caves',
+          permanent: true,
+        },
       ]
     },
   }
