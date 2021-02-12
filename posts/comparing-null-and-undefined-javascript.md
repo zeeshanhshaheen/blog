@@ -1,6 +1,6 @@
 ---
 title: "Comparing null and undefined in JavaScript"
-description: "Let's take a look at how null and undefined compare"
+description: "You have probably seen null but may not be familiar with undefined. We'll compare the two here"
 date: "2020-09-04"
 categories: 
   - "javascript"

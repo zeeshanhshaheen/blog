@@ -27,6 +27,7 @@ export default function Post({ postData }) {
     <PostLayout>
       <Head>
         <title>{postData.title}</title>
+        <meta name="description" content={postData.description}></meta>
       </Head>
 
       <article class="max-w-none rounded-xl p-10 prose lg:prose-xl shadow-xl">

@@ -1,6 +1,7 @@
 ---
 title: "Backpacking The Lost Coast Trail"
 date: "2017-06-15"
+description: "The Loast Coast Trail has been one of my favorite backpacking trips ever, and I wanted to share my experience."
 categories: 
   - "backpacking"
   - "camping"

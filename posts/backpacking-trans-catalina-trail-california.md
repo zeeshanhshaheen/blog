@@ -1,6 +1,7 @@
 ---
 title: "Experience Backpacking the Trans Catalina Trail Avalon to Two Harbors"
 date: "2020-12-09"
+description: "My friends and I hiked the Trans Catalina Trail. Here is a recount of our great adventure."
 categories: 
   - "backpacking"
   - "camping"

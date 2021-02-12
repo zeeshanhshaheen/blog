@@ -1,6 +1,7 @@
 ---
 title: "Arches National Park & Canyon lands National Park Utah"
 date: "2016-10-14"
+description: "A tour of my visit to Arches National Park in Utah. See all the cool hikes and spots I explored."
 categories: 
   - "national-parks"
   - "utah"
