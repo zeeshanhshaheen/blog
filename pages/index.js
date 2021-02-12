@@ -66,11 +66,11 @@ export default function Home({ topPosts, hobbyPosts }) {
                 It really enjoy when I am writing these articles.
               </p>
 
-              <div class="flex mt-6 justify-center">
+              <div class="flex mt-2 justify-center">
                 <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
               </div>
             </div>
-            <ul className="  p-10">
+            <ul className="p-1">
               {topPosts?.map(({ id, date, title, description }) => (
                 <li class="pt-6 no-underline" key={id}>
                   <Link href={`/posts/${id}`}>
@@ -94,8 +94,40 @@ export default function Home({ topPosts, hobbyPosts }) {
               </li>
             </ul>
           </section>
+
           <section className="mt-20 mb-20">
-            <h2 className={utilStyles.headingLg}>
+            <section class="bg-gray-200 rounded-xl	 shadow-xl p-6 lex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+              <div class="text-center mb-10">
+                <h1 class="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
+                  👨‍🏫 My Courses:
+              </h1>
+              <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
+                My cool courses hosted on Thinkster.io
+              </p>
+
+              <div class="flex mt-2 justify-center">
+                <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+              </div>
+                <div className="inline">
+                  <div className="pt-4">
+                  <Link href="https://thinkster.io/tutorials/building-a-crud-application-with-angular-asp-net-core-course-introduction">
+                    <a class="text-black font-semibold text-lg title-font font-medium mb-3 underline">
+                      Building a CRUD Application with Angular & ASP.Net Core
+                    </a>
+                  </Link>
+                  </div>
+                  <div className="pt-4">
+                  <Link href="https://thinkster.io/tutorials/creating-a-c-asp-net-core-api-introduction">
+                    <a class="text-black font-semibold text-lg title-font font-medium mb-3 underline">
+                      Creating a C# ASP.Net Core API
+                    </a>
+                  </Link>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <h2 className="text-white text-2xl pt-8">
               ⛺ Hobby Posts (Mostly Camping):
             </h2>
             <ul className="p-5">

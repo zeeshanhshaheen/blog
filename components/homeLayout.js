@@ -11,7 +11,7 @@ export default function HomeLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Thomas Desmond Sitecore Technical Evangelist Blog"
+          content="Thomas Desmond aka TheTomBomb personal blog for sharing learning and interests"
         />
         <meta
           property="og:image"

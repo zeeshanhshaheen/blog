@@ -21,9 +21,9 @@ export default function HeaderLayout({}) {
             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
             alt="Thomas Desmond"
         /> */}
-              <span className="ml-3 text-xl">
+              <span className="ml-3 text-xl text-white">
                 {" "}
-                <span id="name">Thomas aka</span> TheTomBomb
+                <span className="text-white" id="name">Thomas aka</span> TheTomBomb
               </span>
             </a>
             <nav className="md:ml-auto flex flex-wrap items-center  justify-center">
