@@ -1,6 +1,7 @@
 ---
-title: "Arroyo Tapiado Mud Caves Borrego Springs"
+title: "Arroyo Tapiado Mud Caves Anza Borrego State Park"
 date: "2017-01-25"
+description: "Exploring the vast mud caves in Anza Borrego State Park. A worthwhile trip!"
 categories: 
   - "hobby"
   - "camping"
