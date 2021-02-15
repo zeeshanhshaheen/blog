@@ -2,8 +2,9 @@ import Link from "next/link";
 import Image from 'next/image'
 
 export default function FooterLayout({ children }) {
+
     return (
-        <div class="w-screen bg-indigo-600 flex align-center justify-center">
+        <div className="w-screen bg-indigo-600 flex align-center justify-center">
             <div className="sm:w-3/5 w-11/12 flex justify-center align-center m-12">
                 <div className="flex-auto">
                     <Link href="/">

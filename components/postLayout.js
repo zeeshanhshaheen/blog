@@ -29,8 +29,8 @@ export default function PostLayout({ children }) {
 
       <HeaderLayout />
 
-      <div class="w-screen bg-indigo-600 flex align-center justify-center">
-        <main class="sm:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
+      <div className="w-screen bg-indigo-600 flex align-center justify-center">
+        <main className="sm:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
           {children}
         </main>
       </div>

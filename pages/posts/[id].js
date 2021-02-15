@@ -30,7 +30,7 @@ export default function Post({ postData }) {
         <meta name="description" content={postData.description}></meta>
       </Head>
 
-      <article class="max-w-none rounded-xl p-10 prose lg:prose-xl shadow-xl">
+      <article className="max-w-none rounded-xl p-10 prose lg:prose-xl shadow-xl">
         <h1 className="text-xl">{postData.title}</h1>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
