@@ -8,7 +8,7 @@ export default function HomeLayout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bombFavicon.ico" />
         <meta
           name="description"
           content="Thomas Desmond aka TheTomBomb, a personal blog for sharing learning and interests, you'll find frontend tech content, my courses, and even a few fun camping trips I have taken."
