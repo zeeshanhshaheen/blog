@@ -3,6 +3,7 @@ title: "Thomas Desmond"
 description: "The accomplishments and current happenings of Thomas Desmond"
 categories: 
   - "bio"
+  - "unlisted"
 ---
 
 My name is Thomas Desmond and I am a Technical Evangelist and former Senior Software Engineer. I enjoy writing code myself and find even more joy in helping others succeed in code as well. I have this blog to share my thoughts and things I learn day to day while programming. A few personal articles make it in as well so I can remember some of my favorite camping trips.
