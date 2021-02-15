@@ -3,6 +3,7 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import HeaderLayout from "./headerLayout";
+import FooterLayout from "./footerLayout";
 
 const name = "Thomas aka TheTomBomb";
 export const siteTitle = "Thomas Desmond - Writer, Speaker, Content Creator";
@@ -29,17 +30,11 @@ export default function PostLayout({ children }) {
       <HeaderLayout />
 
       <div class="w-screen bg-indigo-600 flex align-center justify-center">
-        <main class=" md:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
+        <main class="sm:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
           {children}
         </main>
       </div>
-      {
-        <div className="bg-white p-5 ">
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      }
+      <FooterLayout />
     </div>
   );
 }
