@@ -34,7 +34,7 @@ export default function HeaderLayout({}) {
                 Home
               </a>{" "}
               <a
-                href="/bio"
+                href="/posts/bio"
                 className="mr-5 ml-5 text-white hover:text-gray-900 no-underline"
               >
                 Bio
