@@ -85,11 +85,11 @@ export default function Home({ topPosts, hobbyPosts }) {
                 </li>
               ))}
               <li className="pt-4 no-underline" key="all-posts">
-                <a href={`/all-posts`}>
+                <Link href={`/all-posts`}>
                   <a className="text-indigo-600 font-semibold text-lg">
                     View all articles 👉
                   </a>
-                </a>
+                </Link>
                 <br />
               </li>
             </ul>
