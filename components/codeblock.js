@@ -38,6 +38,12 @@ const CodeBlock = ({ language, value }) => {
             width: 1000px;
           }
 
+          @media only screen and (max-width: 600px) {
+            #code-block {
+              width: 250px;
+            }
+          }
+
           @media only screen and (max-width: 768px) {
             #code-block {
               width: 280px;
