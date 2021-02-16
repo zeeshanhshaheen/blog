@@ -4,6 +4,7 @@ import Head from "next/head";
 import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.css";
 import ReactMarkdown from "react-markdown";
+import CodeBlock from "../../components/codeblock"
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -26,6 +27,8 @@ export default function Post({ postData }) {
   return (
     <PostLayout>
       <Head>
+      <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/railscasts.css" />
+
         <title>{postData.title}</title>
         <meta name="description" content={postData.description}></meta>
       </Head>
@@ -36,7 +39,7 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
 
-        <ReactMarkdown source={postData.markdown} />
+        <ReactMarkdown source={postData.markdown} renderers={{ code: CodeBlock }} />
       </article>
     </PostLayout>
   );

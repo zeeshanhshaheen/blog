@@ -21,6 +21,7 @@ export default function Home({ topPosts, hobbyPosts }) {
       <HomeLayout>
         <Head>
           <title>{siteTitle}</title>
+
         </Head>
         <div>
           <section className="ml-20 pt-5 info pb-5" id="info">
