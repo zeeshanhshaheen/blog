@@ -52,7 +52,7 @@ const CodeBlock = ({ language, value }) => {
 
           @media only screen and (max-width: 768px) {
             #code-block {
-              width: 280px;
+              width: 200px;
             }
           }
         `}
