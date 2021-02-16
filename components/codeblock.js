@@ -24,7 +24,7 @@ const CodeBlock = ({ language, value }) => {
     <>
       <span>
         <div className="flex align-center justify-center" id="code-block">
-          <div className=" w-11/12  flex justify-center align-center m-5">
+          <div className="sm:w-10 md:w-15 w-11/12  flex justify-center align-center m-5">
             <Highlight className="" language={language}>
               {value}
             </Highlight>
@@ -32,7 +32,7 @@ const CodeBlock = ({ language, value }) => {
         </div>
       </span>
 
-      <style jsx>
+      {/* <style jsx>
         {`
           #code-block {
             width: 1000px;
@@ -56,7 +56,7 @@ const CodeBlock = ({ language, value }) => {
             }
           }
         `}
-      </style>
+      </style> */}
     </>
   );
 };
