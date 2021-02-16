@@ -51,6 +51,21 @@ module.exports = {
           destination: '/posts/const-in-javascript-is-weird',
           permanent: true,
         },
+        {
+          source: '/2019/11/05/creating-a-c-asp-net-core-api-course-now-available-on-thinkster-io',
+          destination: '/posts/c-sharp-asp-net-core-course-available',
+          permanent: true,
+        },
+        {
+          source: '/2019/08/27/creating-quality-with-mob-programming-talk-at-pnsqc-2019',
+          destination: '/posts/creating-quality-mob-programming-pnsqc',
+          permanent: true,
+        },
+        {
+          source: '/2017/12/14/going-right-mob-programming-benefits-part-4',
+          destination: '/posts/mob-programming-benefits-part-4',
+          permanent: true,
+        },
       ]
     },
   }
