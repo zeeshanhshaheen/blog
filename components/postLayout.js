@@ -3,6 +3,7 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import HeaderLayout from "./headerLayout";
+import FooterLayout from "./footerLayout";
 
 const name = "Thomas aka TheTomBomb";
 export const siteTitle = "Thomas Desmond - Writer, Speaker, Content Creator";
@@ -11,7 +12,7 @@ export default function PostLayout({ children }) {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bombFavicon.ico" />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -28,18 +29,12 @@ export default function PostLayout({ children }) {
 
       <HeaderLayout />
 
-      <div class="w-screen bg-indigo-600 flex align-center justify-center">
-        <main class=" md:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
+      <div className="w-screen bg-indigo-600 flex align-center justify-center">
+        <main className="sm:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
           {children}
         </main>
       </div>
-      {
-        <div className="bg-white p-5 ">
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      }
+      <FooterLayout />
     </div>
   );
 }
