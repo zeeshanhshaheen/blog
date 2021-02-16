@@ -86,6 +86,11 @@ module.exports = {
           destination: '/posts/managing-observables-with-subsink',
           permanent: true,
         },
+        {
+          source: '/2017/07/18/microsoft-cognitive-services-emotion-api-first-impressions',
+          destination: '/posts/microsoft-cognitive-services-emotion-api',
+          permanent: true,
+        },
       ]
     },
   }
