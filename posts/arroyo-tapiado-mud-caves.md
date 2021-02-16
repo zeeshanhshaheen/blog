@@ -2,7 +2,7 @@
 title: "Arroyo Tapiado Mud Caves Anza Borrego State Park"
 date: "2017-01-25"
 description: "Exploring the vast mud caves in Anza Borrego State Park. A worthwhile trip!"
-categories: 
+categories:
   - "hobby"
   - "camping"
 coverImage: "gopr2131.jpg"
@@ -10,7 +10,7 @@ coverImage: "gopr2131.jpg"
 
 Part two of the Winter 2016 camping trip was the Arroyo Tapiado Mud Caves in Anza Borrego State Park. This is one of my favorite spots to explore in Anza Borrego. One of the main reasons for that is you can really get some solitude. Only street-legal vehicles are allowed in this part of the park, so you do not have to worry about dirt bikes or quads tearing through the area.
 
-**Directions:** 
+**Directions:**
 
 - Get yourself to the S2 either from the 78, 76, or 79 depending on where you are coming from.
 - Take the S2 until right about mile marker 43
@@ -72,9 +72,9 @@ We will be going back to the mud caves again!
 ### **Things to bring/plan for when going to the mud caves**
 
 - GPS with routes of caves loaded onto it
-    - http://ropewiki.com/Mud\_Caves\_(Arroyo\_Tapiado)
+  - http://ropewiki.com/Mud\_Caves\_(Arroyo\_Tapiado)
 - Headlamps so you have two hands to stabilize you while in caves
-    - Emphasis on plural, if one light goes out you do not want to be stuck without one in the cave
+  - Emphasis on plural, if one light goes out you do not want to be stuck without one in the cave
 - Bandana or Neck Wrap - it gets dusty in the caves
 - Lots of water - Bring too much water
 - Gas in vehicle - there are no gas stations out there

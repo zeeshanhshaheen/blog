@@ -1,7 +1,7 @@
-import React from "react"
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
-import { tomorrow } from "react-syntax-highlighter/dist/cjs/styles/prism"
-import Highlight from "react-highlight.js"
+import React from "react";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { tomorrow } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import Highlight from "react-highlight.js";
 
 const CodeBlock = ({ language, value }) => {
   return (
@@ -21,16 +21,32 @@ const CodeBlock = ({ language, value }) => {
      >
        {value}
      </SyntaxHighlighter> }*/
-     <span>
-    <div className="w-screen flex align-center justify-center">
-      <div className="sm:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
-        <Highlight className="" language={language}>
-          {value}
-        </Highlight>
-      </div>
-    </div>
-    </span>
-  )
-}
+    <>
+      <span>
+        <div className="flex align-center justify-center" id="code-block">
+          <div className="sm:w-3/5 w-11/12  flex justify-center align-center m-5">
+            <Highlight className="" language={language}>
+              {value}
+            </Highlight>
+          </div>
+        </div>
+      </span>
 
-export default CodeBlock
+      <style jsx>
+        {`
+          #code-block {
+            width: 1000px;
+          }
+
+          @media only screen and (max-width: 768px) {
+            #code-block {
+              width: 280px;
+            }
+          }
+        `}
+      </style>
+    </>
+  );
+};
+
+export default CodeBlock;
