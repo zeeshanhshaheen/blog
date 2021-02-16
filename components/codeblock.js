@@ -24,7 +24,7 @@ const CodeBlock = ({ language, value }) => {
     <>
       <span>
         <div className="flex align-center justify-center" id="code-block">
-          <div className="sm:w-3/5 w-11/12  flex justify-center align-center m-5">
+          <div className=" w-11/12  flex justify-center align-center m-5">
             <Highlight className="" language={language}>
               {value}
             </Highlight>
