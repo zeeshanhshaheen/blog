@@ -66,6 +66,26 @@ module.exports = {
           destination: '/posts/mob-programming-benefits-part-4',
           permanent: true,
         },
+        {
+          source: '/2017/07/12/going-right-mob-programming-part-2',
+          destination: '/posts/mob-programming-benefits-part-2',
+          permanent: true,
+        },
+        {
+          source: '/2017/04/03/how-to-test-your-eventwaithandle-c',
+          destination: '/posts/testing-eventwaithandle',
+          permanent: true,
+        },
+        {
+          source: '/2019/10/31/i-am-a-podcaster-now',
+          destination: '/posts/i-am-a-podcaster',
+          permanent: true,
+        },
+        {
+          source: '/2020/07/29/managing-your-rxjs-observable-subscriptions-in-angular-with-subsink',
+          destination: '/posts/managing-observables-with-subsink',
+          permanent: true,
+        },
       ]
     },
   }
