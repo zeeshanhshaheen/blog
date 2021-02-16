@@ -35,24 +35,12 @@ const CodeBlock = ({ language, value }) => {
       <style jsx>
         {`
           #code-block {
-            width: 1000px;
-          }
-
-          @media only screen and (max-width: 325px) {
-            #code-block {
-              width: 250px;
-            }
-          }
-
-          @media only screen and (max-width: 500px) {
-            #code-block {
-              width: 250px;
-            }
+            width: 900px;
           }
 
           @media only screen and (max-width: 768px) {
             #code-block {
-              width: 200px;
+              width: 150px;
             }
           }
         `}
