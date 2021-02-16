@@ -38,7 +38,7 @@ const CodeBlock = ({ language, value }) => {
             width: 1000px;
           }
 
-          @media only screen and (max-width: 600px) {
+          @media only screen and (max-width: 500px) {
             #code-block {
               width: 250px;
             }
