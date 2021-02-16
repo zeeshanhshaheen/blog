@@ -41,6 +41,16 @@ module.exports = {
           destination: '/posts/arroyo-tapiado-mud-caves',
           permanent: true,
         },
+        {
+          source: '/2019/07/27/asp-net-core-api-course-in-the-works',
+          destination: '/posts/asp-net-course',
+          permanent: true,
+        },
+        {
+          source: '/2020/08/21/const-in-javascript-is-weird-the-non-immutable-const',
+          destination: '/posts/const-in-javascript-is-weird',
+          permanent: true,
+        },
       ]
     },
   }
